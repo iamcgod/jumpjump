@@ -1,0 +1,15 @@
+﻿  Main.c
+cl : 命令列 warning D9014: 無效的值 '2109' (屬於 '/wd'); 假設為 '5999'
+C:\Users\小斌\Desktop\專題\專題\專題\speed.c(5,45): warning C4244: '函式': 將 'time_t' 轉換為 'DWORD'，由於類型不同，可能導致資料遺失
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(27,24): warning C4244: '=': 將 'time_t' 轉換為 'long'，由於類型不同，可能導致資料遺失
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(38,19): warning C4244: '函式': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(41,23): warning C4047: '函式': 'char *' 與 'char [10][50]' 間接取值的層級不同
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(41,23): warning C4024: 'background': 型式和實質參數 2 不同的類型
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(42,16): warning C4047: '函式': 'char *' 與 'char [10][50]' 間接取值的層級不同
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(42,16): warning C4024: 'read': 型式和實質參數 2 不同的類型
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(70,11): warning C4477: 'printf' : 格式字串 '%lu' 需要 'unsigned long' 類型的引數，但 variadic 引數 1 的類型為 'time_t'
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(70,11): message : 請考慮在格式字串中使用 '%llu'
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(70,11): message : 請考慮在格式字串中使用 '%I64u'
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(73,9): warning C4013: 'check' 未定義; 假設 extern 傳回整數
+C:\Users\小斌\Desktop\專題\專題\專題\Main.c(72,1): warning C4047: '正在初始化': 'int' 與 'long *' 間接取值的層級不同
+  專題.vcxproj -> C:\Users\小斌\Desktop\專題\專題\Debug\專題.exe
